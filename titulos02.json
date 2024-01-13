@@ -1,0 +1,942 @@
+{
+    "intents": [
+      {
+        "tag": "art065_pregunta",
+        "patterns": [
+          "¿Cómo se gestiona la propiedad intelectual en proyectos de investigación?",
+          "¿Qué derechos tengo sobre mi trabajo de investigación?",
+          "¿Cómo protege la universidad mi propiedad intelectual?",
+          "¿Necesito registrar mi trabajo de investigación para protegerlo?"
+        ],
+        "responses": [
+          "La universidad tiene políticas para manejar la propiedad intelectual, asegurando que tus derechos como investigador se respeten y protejan.",
+          "Generalmente, es recomendable registrar tu trabajo de investigación para proteger tus derechos, siguiendo las pautas de la universidad."
+        ]
+      },
+      {
+        "tag": "art066_pregunta",
+        "patterns": [
+          "¿Cuáles son las políticas para el uso de laboratorios?",
+          "¿Cómo reservo tiempo en un laboratorio para mi proyecto?",
+          "¿Hay algún costo asociado con el uso de los laboratorios?",
+          "¿Qué reglas de seguridad debo seguir en los laboratorios?"
+        ],
+        "responses": [
+          "Para usar los laboratorios, debes seguir las políticas de reserva y seguridad establecidas por la universidad. Esto puede incluir un proceso de solicitud y orientación de seguridad.",
+          "El uso de laboratorios puede tener costos asociados, dependiendo del equipo y los recursos que necesites. Siempre sigue las normas de seguridad."
+        ]
+      },
+      {
+        "tag": "art067_pregunta",
+        "patterns": [
+          "¿Cómo se manejan las situaciones de fraude académico?",
+          "¿Qué consecuencias enfrento si cometo fraude académico?",
+          "¿Cómo puedo reportar un caso de fraude académico?",
+          "¿Qué medidas toma la universidad contra el fraude académico?"
+        ],
+        "responses": [
+          "El fraude académico es tomado muy en serio y puede resultar en sanciones severas, incluyendo la expulsión de la universidad.",
+          "Si eres testigo de fraude académico, debes reportarlo a las autoridades académicas. La universidad tiene un proceso establecido para investigar y sancionar estos casos."
+        ]
+      },
+      {
+        "tag": "art068_pregunta",
+        "patterns": [
+          "¿Cómo puedo participar en programas de investigación durante mis estudios?",
+          "¿Qué oportunidades de investigación ofrece la universidad para los estudiantes?",
+          "¿Necesito cierto promedio para participar en proyectos de investigación?",
+          "¿Cómo encuentro un proyecto de investigación en el que pueda colaborar?"
+        ],
+        "responses": [
+          "La universidad ofrece diversas oportunidades de investigación para estudiantes, a menudo con requisitos como un promedio mínimo o aprobación de un profesor.",
+          "Para encontrar proyectos de investigación, consulta con tu departamento académico o la oficina de investigación de la universidad."
+        ]
+      },
+      {
+        "tag": "art069_pregunta",
+        "patterns": [
+          "¿Cómo se maneja la confidencialidad de los registros estudiantiles?",
+          "¿Quién tiene acceso a mi expediente académico?",
+          "¿Puedo solicitar que mi información personal sea mantenida en privado?",
+          "¿Qué medidas toma la universidad para proteger mis datos personales?"
+        ],
+        "responses": [
+          "La universidad protege la confidencialidad de tus registros estudiantiles. Solo el personal autorizado tiene acceso a tu expediente académico.",
+          "Puedes solicitar que tu información personal sea mantenida en privado, y la universidad tiene políticas estrictas para proteger tus datos."
+        ]
+      },
+      {
+        "tag": "art070_pregunta",
+        "patterns": [
+          "¿Qué opciones hay para resolver conflictos académicos?",
+          "¿Cómo se manejan las disputas entre estudiantes y profesores?",
+          "¿Hay un proceso de mediación para problemas académicos?",
+          "¿A quién acudo si tengo un conflicto académico?"
+        ],
+        "responses": [
+          "Para conflictos académicos, la universidad ofrece procesos de mediación y resolución de disputas. Puedes acudir a la coordinación de tu facultad para asesoramiento.",
+          "En caso de disputas, se promueve un enfoque imparcial y justo para resolver el conflicto, con la posibilidad de involucrar a mediadores si es necesario."
+        ]
+      },
+      {
+        "tag": "art071_pregunta",
+        "patterns": [
+          "¿Cómo puedo acceder a servicios de orientación vocacional?",
+          "¿Qué ayuda ofrece la universidad para elegir una carrera?",
+          "¿Hay asesores disponibles para discutir opciones de carrera?",
+          "¿Cómo me ayuda la orientación vocacional en mi elección de carrera?"
+        ],
+        "responses": [
+          "La universidad ofrece servicios de orientación vocacional para ayudarte a elegir una carrera. Puedes acceder a ellos a través de la oficina de asesoramiento estudiantil.",
+          "Los asesores de orientación vocacional pueden guiarte en la exploración de tus intereses y habilidades, ayudándote a tomar decisiones informadas sobre tu carrera."
+        ]
+      },
+      {
+        "tag": "art072_pregunta",
+        "patterns": [
+          "¿Qué iniciativas de sostenibilidad promueve la universidad?",
+          "¿Cómo puedo involucrarme en proyectos de sostenibilidad en el campus?",
+          "¿Hay programas o actividades enfocadas en la sostenibilidad?",
+          "¿Qué hace la universidad para fomentar la conciencia ambiental?"
+        ],
+        "responses": [
+          "La universidad promueve varias iniciativas de sostenibilidad, como programas de reciclaje, conservación de energía y eventos de conciencia ambiental.",
+          "Puedes involucrarte en proyectos de sostenibilidad participando en clubes estudiantiles enfocados en el medio ambiente o en actividades organizadas por la universidad."
+        ]
+      },
+      {
+        "tag": "art073_pregunta",
+        "patterns": [
+          "¿Cómo se manejan los cambios en el plan de estudios?",
+          "¿Qué hago si un curso que necesito ya no se ofrece?",
+          "¿Se notifica a los estudiantes sobre cambios en el plan de estudios?",
+          "¿Pueden los cambios en el plan de estudios afectar mi fecha de graduación?"
+        ],
+        "responses": [
+          "Los cambios en el plan de estudios se comunican con anticipación, y la universidad ofrece opciones para aquellos afectados, como cursos equivalentes.",
+          "Si un cambio en el plan de estudios afecta tu progreso, se toman medidas para minimizar el impacto, incluyendo la asesoría académica para ajustar tu ruta de graduación."
+        ]
+      },
+      {
+        "tag": "art074_pregunta",
+        "patterns": [
+          "¿Cómo puedo presentar una propuesta para un nuevo club estudiantil?",
+          "¿Qué requisitos debe cumplir una propuesta de club estudiantil?",
+          "¿Quién aprueba los nuevos clubes estudiantiles?",
+          "¿Hay limitaciones en el tipo de clubes estudiantiles que puedo proponer?"
+        ],
+        "responses": [
+          "Para proponer un nuevo club estudiantil, debes presentar una propuesta detallada que cumpla con las directrices de la universidad a la oficina de asuntos estudiantiles.",
+          "Las propuestas de clubes estudiantiles son revisadas por un comité, y deben alinearse con los valores y normas de la institución."
+        ]
+      },
+      {
+        "tag": "art075_pregunta",
+        "patterns": [
+          "¿Cuál es el proceso para solicitar exámenes de recuperación?",
+          "¿Bajo qué circunstancias se permiten exámenes de recuperación?",
+          "¿Cómo se califican los exámenes de recuperación?",
+          "¿Qué sucede si no apruebo un examen de recuperación?"
+        ],
+        "responses": [
+          "Los exámenes de recuperación se solicitan a través de la secretaría académica y están sujetos a ciertas condiciones, como justificación válida de inasistencia previa.",
+          "Los exámenes de recuperación tienen criterios de calificación similares a los exámenes regulares. Si no apruebas, debes seguir las políticas académicas para dicho curso."
+        ]
+      },
+      {
+        "tag": "art076_pregunta",
+        "patterns": [
+          "¿Cómo se manejan las solicitudes de convalidación de cursos externos?",
+          "¿Qué requisitos debo cumplir para convalidar un curso de otra institución?",
+          "¿Cómo se evalúa la equivalencia de cursos para convalidación?",
+          "¿Hay un límite en la cantidad de créditos que puedo convalidar?"
+        ],
+        "responses": [
+          "Para convalidar cursos de otras instituciones, debes presentar documentación detallada del curso, incluyendo el syllabus, para evaluación de equivalencia.",
+          "Hay un límite en la cantidad de créditos que se pueden convalidar, y la decisión se basa en la relevancia y calidad de los cursos originales. Cada solicitud de convalidación se revisa individualmente."
+        ]
+        },
+        {
+            "tag": "art077_pregunta",
+            "patterns": [
+              "¿Cómo puedo apelar una decisión académica que considero injusta?",
+              "¿Qué proceso debo seguir para impugnar una calificación?",
+              "¿A quién debo dirigirme si quiero apelar una decisión de un profesor?",
+              "¿Cuáles son mis derechos como estudiante en un proceso de apelación?"
+            ],
+            "responses": [
+              "Para apelar una decisión académica, debes seguir el proceso formal de apelación, que generalmente incluye presentar una solicitud escrita a la autoridad académica correspondiente.",
+              "Como estudiante, tienes derecho a una revisión justa y objetiva de tu caso. La apelación debe ser bien fundamentada y presentada dentro de los plazos establecidos."
+            ]
+          },
+          {
+            "tag": "art078_pregunta",
+            "patterns": [
+              "¿Cómo se evalúan las solicitudes de becas para investigación?",
+              "¿Qué criterios se utilizan para otorgar becas de investigación?",
+              "¿Cómo puedo mejorar mis posibilidades de recibir una beca de investigación?",
+              "¿Quién decide sobre la asignación de becas de investigación?"
+            ],
+            "responses": [
+              "Las solicitudes de becas para investigación se evalúan en base a criterios como la relevancia del proyecto, mérito académico y viabilidad.",
+              "Para mejorar tus posibilidades, asegúrate de presentar una propuesta bien estructurada y justificada. La decisión final suele ser tomada por un comité especializado."
+            ]
+          },
+          {
+            "tag": "art079_pregunta",
+            "patterns": [
+              "¿Qué opciones de estudio en el extranjero ofrece la universidad?",
+              "¿Cómo me postulo para programas de estudio en el extranjero?",
+              "¿Hay becas disponibles para estudiar en el extranjero?",
+              "¿Qué requisitos debo cumplir para estudiar en el extranjero?"
+            ],
+            "responses": [
+              "La universidad ofrece varias opciones de estudio en el extranjero, incluyendo intercambios y programas conjuntos. Puedes postularte a través de la oficina de relaciones internacionales.",
+              "Para estudiar en el extranjero, generalmente debes cumplir con requisitos como un buen rendimiento académico y habilidades lingüísticas. Hay becas disponibles, sujetas a criterios específicos."
+            ]
+          },
+          {
+            "tag": "art080_pregunta",
+            "patterns": [
+              "¿Cómo puedo obtener asesoramiento para mi desarrollo profesional?",
+              "¿Qué servicios de carrera ofrece la universidad?",
+              "¿Hay orientación disponible para elegir un camino profesional después de graduarme?",
+              "¿Cómo me preparo para el mercado laboral tras finalizar mis estudios?",
+              "¿Qué recursos tiene la universidad para apoyar mi desarrollo de carrera?"
+              ],
+              "responses": [
+              "La universidad ofrece asesoramiento para el desarrollo profesional a través de su oficina de carreras, que incluye orientación, talleres y ferias de empleo.",
+              "Puedes prepararte para el mercado laboral participando en actividades de desarrollo de carrera, como prácticas profesionales, mentorías y eventos de networking."
+              ]
+              },
+              {
+                "tag": "art081_pregunta",
+                "patterns": [
+                  "¿Cómo se manejan las exenciones de matrícula?",
+                  "¿Qué criterios se aplican para la exención de matrícula?",
+                  "¿Puedo solicitar una exención de matrícula por motivos económicos?",
+                  "¿Qué proceso debo seguir para obtener una exención de matrícula?"
+                ],
+                "responses": [
+                  "Las exenciones de matrícula se manejan según criterios específicos, que pueden incluir mérito académico o situación económica. Debes solicitarlo a través de la oficina de administración.",
+                  "Para solicitar una exención por motivos económicos, es necesario presentar documentación que respalde tu situación y cumplir con los requisitos establecidos."
+                ]
+              },
+              {
+                "tag": "art082_pregunta",
+                "patterns": [
+                  "¿Cómo puedo solicitar una revisión de mi plan de estudios?",
+                  "¿Bajo qué circunstancias se permite modificar un plan de estudios?",
+                  "¿Qué debo hacer si necesito ajustes en mi plan de estudios?",
+                  "¿Quién aprueba los cambios en los planes de estudios individuales?"
+                ],
+                "responses": [
+                  "Para solicitar una revisión o modificación de tu plan de estudios, debes presentar una solicitud justificada a la facultad o departamento correspondiente.",
+                  "Los cambios en los planes de estudios son revisados y aprobados por un comité académico, basándose en criterios como necesidades especiales o circunstancias excepcionales."
+                ]
+              },
+              {
+                "tag": "art083_pregunta",
+                "patterns": [
+                  "¿Qué políticas existen sobre el acoso sexual en la universidad?",
+                  "¿Cómo puedo reportar un incidente de acoso sexual?",
+                  "¿Qué medidas se toman contra los agresores de acoso sexual?",
+                  "¿Hay recursos de apoyo para víctimas de acoso sexual?"
+                ],
+                "responses": [
+                  "La universidad tiene políticas estrictas contra el acoso sexual, y puedes reportar incidentes a la oficina de bienestar estudiantil o a recursos humanos.",
+                  "Las medidas contra los agresores pueden incluir sanciones disciplinarias severas. Además, la universidad ofrece recursos de apoyo para las víctimas."
+                ]
+              },
+              {
+                "tag": "art084_pregunta",
+                "patterns": [
+                  "¿Cómo se promueven las actividades interculturales en la universidad?",
+                  "¿Qué tipo de eventos interculturales se organizan en el campus?",
+                  "¿Hay clubes o grupos enfocados en la diversidad cultural en la universidad?",
+                  "¿Cómo puedo involucrarme en actividades que promuevan el intercambio cultural?"
+                ],
+                "responses": [
+                  "La universidad promueve actividades interculturales a través de eventos, clubes y programas que fomentan el intercambio y la comprensión cultural.",
+                  "Puedes involucrarte en estas actividades participando en eventos organizados, uniéndote a clubes relacionados con la diversidad cultural, o a través de programas de intercambio estudiantil."
+                ]
+              },
+              {
+                "tag": "art085_pregunta",
+                "patterns": [
+                  "¿Cómo se manejan las solicitudes de prórroga para la entrega de tesis?",
+                  "¿Bajo qué condiciones puedo solicitar una extensión para mi proyecto de tesis?",
+                  "¿Qué proceso debo seguir para obtener una prórroga de tesis?",
+                  "¿Hay límites en cuanto a la duración de la prórroga para la tesis?"
+                ],
+                "responses": [
+                  "Las solicitudes de prórroga para la entrega de tesis se manejan a través de un proceso formal, donde debes justificar la necesidad de más tiempo.",
+                  "Generalmente hay límites en la duración de las prórrogas, y cada caso se evalúa individualmente basándose en las circunstancias presentadas."
+                ]
+              },
+              {
+                "tag": "art086_pregunta",
+                "patterns": [
+                  "¿Cómo puedo obtener apoyo financiero para asistir a conferencias académicas?",
+                  "¿Qué criterios se utilizan para otorgar fondos para conferencias?",
+                  "¿Cómo solicito financiamiento para participar en una conferencia?",
+                  "¿Hay limitaciones en el tipo de conferencias para las cuales se ofrece apoyo financiero?"
+                ],
+                "responses": [
+                  "Para obtener apoyo financiero para conferencias, debes presentar una solicitud que demuestre el valor académico de tu asistencia.",
+                  "El financiamiento está sujeto a criterios como relevancia académica y disponibilidad de fondos. Las conferencias deben estar alineadas con tu área de estudio."
+                ]
+              },
+              {
+                "tag": "art087_pregunta",
+                "patterns": [
+                  "¿Qué servicios de soporte tecnológico ofrece la universidad?",
+                  "¿Cómo accedo a los recursos tecnológicos disponibles en el campus?",
+                  "¿Hay asistencia técnica para problemas con equipos o software?",
+                  "¿Qué tipo de equipamiento tecnológico puedo utilizar en la universidad?"
+                ],
+                "responses": [
+                  "La universidad ofrece varios servicios de soporte tecnológico, incluyendo acceso a equipos, software y asistencia técnica para estudiantes.",
+                  "Puedes acceder a estos recursos tecnológicos a través de la biblioteca, laboratorios informáticos, o solicitando asistencia en el departamento de TI."
+                ]
+              },
+              {
+                "tag": "art088_pregunta",
+                "patterns": [
+                  "¿Cómo se fomenta la innovación y el emprendimiento en la universidad?",
+                  "¿Hay programas o iniciativas para estudiantes interesados en emprender?",
+                  "¿Qué recursos ofrece la universidad para proyectos de emprendimiento?",
+                  "¿Cómo puedo participar en actividades de innovación y emprendimiento?"
+                ],
+                "responses": [
+                  "La universidad promueve la innovación y el emprendimiento a través de programas, talleres y concursos diseñados para apoyar a estudiantes emprendedores.",
+                  "Puedes participar en estas actividades inscribiéndote en los programas ofrecidos, uniéndote a clubes de emprendimiento o asistiendo a eventos relacionados."
+                ]
+              },
+              {
+                "tag": "art089_pregunta",
+                "patterns": [
+                  "¿Cómo se gestiona el cambio de modalidad de titulación?",
+                  "¿Puedo cambiar mi opción de titulación después de haberla elegido?",
+                  "¿Qué proceso debo seguir para modificar mi modalidad de titulación?",
+                  "¿Existen restricciones para cambiar la modalidad de titulación?"
+                ],
+                "responses": [
+                  "Para cambiar la modalidad de titulación, debes presentar una solicitud y justificar el cambio. Este proceso está sujeto a la aprobación de la facultad.",
+                  "Existen restricciones y condiciones específicas para cambiar de modalidad, y cada caso se evalúa individualmente."
+                ]
+              },
+              {
+                "tag": "art090_pregunta",
+                "patterns": [
+                  "¿Cómo puedo acceder a los programas de intercambio cultural?",
+                  "¿Qué requisitos debo cumplir para participar en un intercambio cultural?",
+                  "¿Hay límites de edad o semestre para los intercambios culturales?",
+                  "¿Qué beneficios tengo al participar en un intercambio cultural?"
+                ],
+                "responses": [
+                  "Para acceder a programas de intercambio cultural, debes cumplir con los requisitos académicos y, a veces, requisitos de idioma.",
+                  "Participar en intercambios culturales ofrece beneficios como la exposición a nuevas culturas, aprendizaje de idiomas y desarrollo personal."
+                ]
+              },
+              {
+                "tag": "art091_pregunta",
+                "patterns": [
+                  "¿Cuáles son las políticas de la universidad respecto a la diversidad e inclusión?",
+                  "¿Cómo se promueve un ambiente inclusivo en el campus?",
+                  "¿Qué iniciativas existen para apoyar la diversidad estudiantil?",
+                  "¿Cómo maneja la universidad las cuestiones de discriminación?"
+                ],
+                "responses": [
+                  "La universidad tiene políticas de diversidad e inclusión que buscan promover un ambiente de respeto y equidad en el campus.",
+                  "Existen varias iniciativas y programas enfocados en apoyar la diversidad estudiantil y manejar situaciones de discriminación de manera efectiva."
+                ]
+              },
+              {
+                "tag": "art092_pregunta",
+                "patterns": [
+                  "¿Qué oportunidades de formación continua ofrece la universidad?",
+                  "¿Cómo puedo inscribirme en cursos de formación continua?",
+                  "¿Hay programas de formación continua en línea disponibles?",
+                  "¿Qué beneficios ofrecen los cursos de formación continua?"
+                ],
+                "responses": [
+                  "La universidad ofrece diversas oportunidades de formación continua, incluyendo cursos presenciales y en línea, en varias áreas de estudio.",
+                  "Puedes inscribirte en estos programas a través del departamento de educación continua. Los beneficios incluyen actualización de conocimientos y desarrollo profesional."
+                ]
+              },
+              {
+                "tag": "art093_pregunta",
+                "patterns": [
+                  "¿Cómo se manejan las quejas sobre el personal administrativo?",
+                  "¿Qué hago si tengo un problema con un miembro del personal administrativo?",
+                  "¿Existe un procedimiento para presentar quejas administrativas?",
+                  "¿Cómo asegura la universidad la imparcialidad en el manejo de quejas administrativas?"
+                ],
+                "responses": [
+                  "Para quejas sobre el personal administrativo, debes seguir el procedimiento oficial, que usualmente implica presentar una queja formal a través de un canal designado.",
+                  "La universidad garantiza la imparcialidad en el manejo de estas quejas, asegurando que cada caso se investigue adecuadamente."
+                ]
+              },
+              {
+                "tag": "art094_pregunta",
+                "patterns": [
+                  "¿Qué programas de mentoría ofrece la universidad?",
+                  "¿Cómo me beneficio de participar en un programa de mentoría?",
+                  "¿Cómo puedo ser mentor o mentee?",
+                  "¿Qué requisitos debo cumplir para unirme a un programa de mentoría?"
+                ],
+                "responses": [
+                  "La universidad ofrece programas de mentoría que conectan a estudiantes con mentores experimentados para apoyo y guía.",
+                  "Para participar, tanto mentores como mentees deben cumplir con ciertos requisitos, que puedes consultar en la oficina de asuntos estudiantiles."
+                ]
+              },
+              {
+                "tag": "art095_pregunta",
+                "patterns": [
+                  "¿Cómo se promueve la salud mental y el bienestar en la universidad?",
+                  "¿Qué recursos de salud mental están disponibles para los estudiantes?",
+                  "¿Cómo puedo acceder a servicios de consejería psicológica?",
+                  "¿Hay talleres o programas de bienestar estudiantil?"
+                ],
+                "responses": [
+                  "La universidad promueve la salud mental ofreciendo servicios de consejería, talleres y programas de bienestar estudiantil.",
+                  "Puedes acceder a estos servicios y programas a través de la oficina de bienestar estudiantil o el departamento de salud estudiantil."
+                ]
+              },
+              {
+                "tag": "art096_pregunta",
+                "patterns": [
+                  "¿Qué oportunidades de liderazgo ofrece la universidad?",
+                  "¿Cómo puedo desarrollar habilidades de liderazgo en la universidad?",
+                  "¿Hay programas o talleres de desarrollo de liderazgo?",
+                  "¿Cómo me involucro en roles de liderazgo estudiantil?"
+                ],
+                "responses": [
+                  "La universidad ofrece oportunidades de liderazgo a través de clubes estudiantiles, programas de mentoría y talleres específicos.",
+                  "Para desarrollar habilidades de liderazgo, puedes participar en actividades estudiantiles, unirte a organizaciones estudiantiles, o asistir a talleres de desarrollo de liderazgo ofrecidos por la universidad."
+                  ]
+                },
+                {
+                    "tag": "art097_pregunta",
+                    "patterns": [
+                      "¿Cómo puedo acceder a los fondos de investigación de la universidad?",
+                      "¿Qué requisitos debo cumplir para solicitar fondos de investigación?",
+                      "¿Existe un límite en la cantidad de financiamiento que puedo recibir?",
+                      "¿Cómo se evalúan las propuestas de proyectos de investigación para financiamiento?"
+                    ],
+                    "responses": [
+                      "Para acceder a fondos de investigación, debes presentar una propuesta detallada que cumpla con los criterios establecidos por la universidad.",
+                      "La evaluación de propuestas incluye la viabilidad, relevancia y mérito académico. Hay límites de financiamiento, que varían según el proyecto."
+                    ]
+                  },
+                  {
+                    "tag": "art098_pregunta",
+                    "patterns": [
+                      "¿Qué servicios de apoyo académico están disponibles para estudiantes con discapacidades?",
+                      "¿Cómo solicito adaptaciones académicas debido a una discapacidad?",
+                      "¿Existen recursos específicos para estudiantes con necesidades especiales?",
+                      "¿Cómo asegura la universidad la accesibilidad para todos los estudiantes?"
+                    ],
+                    "responses": [
+                      "La universidad ofrece servicios de apoyo y adaptaciones académicas para estudiantes con discapacidades, accesibles a través de la oficina de servicios estudiantiles.",
+                      "Se proporcionan recursos específicos y adaptaciones para garantizar la accesibilidad y el apoyo necesario para tu éxito académico."
+                    ]
+                  },
+                  {
+                    "tag": "art099_pregunta",
+                    "patterns": [
+                      "¿Cómo se gestionan los conflictos éticos en proyectos de investigación?",
+                      "¿Qué medidas toma la universidad ante un dilema ético en la investigación?",
+                      "¿Existen comités de ética para revisar los proyectos de investigación?",
+                      "¿Cómo puedo reportar preocupaciones éticas relacionadas con la investigación?"
+                    ],
+                    "responses": [
+                      "Los conflictos éticos en proyectos de investigación son gestionados por comités de ética, los cuales revisan los proyectos para asegurarse de que cumplan con las normas éticas establecidas.",
+                      "Si tienes preocupaciones éticas relacionadas con un proyecto de investigación, puedes reportarlas a estos comités para su evaluación y acción correspondiente."
+                      ]
+                      },
+                      {
+                      "tag": "art100_pregunta",
+                      "patterns": [
+                      "¿Cómo se fomenta la participación estudiantil en la gobernanza universitaria?",
+                      "¿Puedo como estudiante participar en los comités de la universidad?",
+                      "¿Qué papel juegan los estudiantes en la toma de decisiones universitarias?",
+                      "¿Cómo puedo involucrarme en los procesos de toma de decisiones en la universidad?"
+                      ],
+                      "responses": [
+                      "La universidad promueve la participación estudiantil en la gobernanza a través de representantes estudiantiles en diversos comités y órganos de decisión.",
+                      "Como estudiante, puedes involucrarte participando en elecciones estudiantiles, uniéndote a comités o a través de la representación en consejos universitarios."
+                      ]
+                      },
+                      {
+                        "tag": "art101_pregunta",
+                        "patterns": [
+                          "¿Cuáles son las políticas de la universidad para el uso de recursos digitales?",
+                          "¿Cómo accedo a las plataformas digitales educativas de la universidad?",
+                          "¿Existen restricciones en el uso de recursos digitales?",
+                          "¿Qué debo hacer si tengo problemas técnicos con las plataformas digitales?"
+                        ],
+                        "responses": [
+                          "Para acceder y usar las plataformas digitales educativas, debes seguir las políticas de la universidad, que incluyen normas de uso responsable y acceso seguro.",
+                          "Si enfrentas problemas técnicos, puedes contactar al soporte de TI de la universidad para asistencia y solución de inconvenientes."
+                        ]
+                      },
+                      {
+                        "tag": "art102_pregunta",
+                        "patterns": [
+                          "¿Cómo se manejan los casos de plagio académico?",
+                          "¿Qué consecuencias enfrento si se detecta plagio en mi trabajo?",
+                          "¿Cómo puedo evitar cometer plagio en mis asignaciones?",
+                          "¿Qué recursos ofrece la universidad para detectar y prevenir el plagio?"
+                        ],
+                        "responses": [
+                          "El plagio académico es una falta grave y se maneja con sanciones que pueden incluir la anulación del trabajo y otras medidas disciplinarias.",
+                          "Para evitar el plagio, utiliza los recursos de la universidad para la detección de plagio y asegúrate de citar adecuadamente todas tus fuentes."
+                        ]
+                      },
+                      {
+                        "tag": "art103_pregunta",
+                        "patterns": [
+                          "¿Qué oportunidades de becas ofrece la universidad para estudios de posgrado?",
+                          "¿Cómo me postulo para una beca de posgrado?",
+                          "¿Qué criterios se consideran para otorgar becas de posgrado?",
+                          "¿Hay becas disponibles para estudios de posgrado en el extranjero?"
+                        ],
+                        "responses": [
+                          "La universidad ofrece diversas becas para estudios de posgrado, incluyendo programas en el extranjero. La postulación requiere cumplir con criterios académicos y financieros específicos.",
+                          "Puedes consultar las opciones de becas y el proceso de solicitud en la oficina de posgrado o en la página web de la universidad."
+                        ]
+                      },
+                      {
+                        "tag": "art104_pregunta",
+                        "patterns": [
+                          "¿Cómo se fomentan las iniciativas de investigación interdisciplinaria?",
+                          "¿Qué apoyo ofrece la universidad para proyectos de investigación interdisciplinarios?",
+                          "¿Cómo puedo involucrarme en proyectos de investigación interdisciplinarios?",
+                          "¿Existen fondos específicos para la investigación interdisciplinaria?"
+                        ],
+                        "responses": [
+                          "La universidad promueve y apoya las iniciativas de investigación interdisciplinaria a través de fondos específicos y colaboraciones entre departamentos.",
+                          "Para involucrarte en proyectos interdisciplinarios, puedes consultar las oportunidades disponibles en la oficina de investigación o en tu facultad."
+                        ]
+                      },
+                      {
+                        "tag": "art105_pregunta",
+                        "patterns": [
+                          "¿Cómo se evalúan las solicitudes para programas de doctorado?",
+                          "¿Qué criterios debo cumplir para ser admitido en un doctorado?",
+                          "¿Hay un proceso de entrevista para los programas de doctorado?",
+                          "¿Qué documentación necesito para postularme a un programa de doctorado?"
+                        ],
+                        "responses": [
+                          "Las solicitudes para programas de doctorado se evalúan según criterios como mérito académico, experiencia de investigación y adecuación al programa.",
+                          "Además de la documentación estándar, es posible que debas participar en un proceso de entrevista como parte de tu admisión al doctorado."
+                        ]
+                      },
+                      {
+                        "tag": "art106_pregunta",
+                        "patterns": [
+                          "¿Cómo se manejan las publicaciones científicas de estudiantes y profesores?",
+                          "¿Qué apoyo ofrece la universidad para publicar investigaciones?",
+                          "¿Hay lineamientos específicos para publicar bajo el nombre de la universidad?",
+                          "¿Cómo puedo acceder a recursos para publicar mi investigación?"
+                        ],
+                        "responses": [
+                          "La universidad brinda apoyo para publicaciones científicas, incluyendo asesoramiento y acceso a recursos. Debes seguir los lineamientos establecidos para publicaciones.",
+                          "Para publicar tu investigación, consulta con el departamento de investigación de tu facultad para obtener guías y recursos disponibles."
+                        ]
+                      },
+                      {
+                        "tag": "art107_pregunta",
+                        "patterns": [
+                          "¿Qué programas de apoyo existen para estudiantes internacionales?",
+                          "¿Cómo se facilita la integración de estudiantes internacionales?",
+                          "¿Hay servicios de orientación específicos para estudiantes del extranjero?",
+                          "¿Cómo puedo acceder a recursos como estudiante internacional?"
+                        ],
+                        "responses": [
+                          "La universidad ofrece programas de apoyo para estudiantes internacionales, incluyendo servicios de orientación y asistencia en la integración.",
+                          "Como estudiante internacional, puedes acceder a estos servicios a través de la oficina de relaciones internacionales o la oficina de estudiantes extranjeros."
+                        ]
+                      },
+                      {
+                        "tag": "art108_pregunta",
+                        "patterns": [
+                          "¿Cómo puedo participar en proyectos de desarrollo comunitario?",
+                          "¿Qué tipo de proyectos de desarrollo comunitario ofrece la universidad?",
+                          "¿Hay créditos académicos por participar en desarrollo comunitario?",
+                          "¿Cómo se seleccionan los proyectos de desarrollo comunitario?"
+                        ],
+                        "responses": [
+                          "La universidad ofrece oportunidades para participar en proyectos de desarrollo comunitario, que pueden ser parte de programas académicos o voluntariado.",
+                          "Puedes obtener créditos académicos por tu participación en algunos proyectos, y estos son seleccionados basados en su impacto y relevancia comunitaria."
+                        ]
+                      },
+                      {
+                        "tag": "art109_pregunta",
+                        "patterns": [
+                          "¿Cómo se gestionan las solicitudes de cambio de carrera?",
+                          "¿Qué requisitos debo cumplir para cambiar de carrera?",
+                          "¿Hay un límite de tiempo para solicitar un cambio de carrera?",
+                          "¿Cómo afectará un cambio de carrera a mi plan de estudios actual?"
+                        ],
+                        "responses": [
+                          "Para cambiar de carrera, debes cumplir con los requisitos específicos y presentar una solicitud formal. Este proceso puede implicar un análisis de tu récord académico.",
+                          "Un cambio de carrera puede afectar tu plan de estudios y la duración de tus estudios. Es importante consultar con asesores académicos para entender el impacto."
+                        ]
+                      },
+                      {
+                        "tag": "art110_pregunta",
+                        "patterns": [
+                          "¿Qué programas de apoyo existen para estudiantes con dificultades académicas?",
+                          "¿Cómo puedo acceder a tutorías si tengo problemas en una asignatura?",
+                          "¿Hay recursos adicionales para mejorar mi rendimiento académico?",
+                          "¿Qué opciones tengo si me encuentro en riesgo académico?"
+                        ],
+                        "responses": [
+                          "La universidad ofrece programas de apoyo como tutorías y asesoramiento académico para estudiantes con dificultades.",
+                          "Si estás en riesgo académico, puedes acceder a recursos adicionales como talleres de habilidades de estudio y sesiones de orientación."
+                        ]
+                      },
+                      {
+                        "tag": "art111_pregunta",
+                        "patterns": [
+                            "¿Cómo se maneja la confidencialidad en los servicios de asesoramiento estudiantil?",
+                            "¿Qué tipo de asesoramiento estudiantil está disponible en la universidad?",
+                            "¿Puedo hablar con un asesor sobre problemas personales o académicos?",
+                            "¿Cómo puedo programar una sesión de asesoramiento estudiantil?"
+                          ],
+                          "responses": [
+                            "Los servicios de asesoramiento estudiantil manejan la confidencialidad de manera estricta, asegurando la privacidad de los estudiantes en todas las consultas.",
+                            "Puedes programar sesiones de asesoramiento para una variedad de problemas, tanto personales como académicos, a través de la oficina de servicios estudiantiles."
+                          ]
+                        },
+                        {
+                          "tag": "art112_pregunta",
+                          "patterns": [
+                            "¿Cómo se fomentan las actividades de investigación y desarrollo?",
+                            "¿Qué recursos ofrece la universidad para apoyar la investigación?",
+                            "¿Cómo puedo involucrarme en proyectos de investigación y desarrollo?",
+                            "¿Existen oportunidades de financiamiento para proyectos de I+D?"
+                          ],
+                          "responses": [
+                            "La universidad promueve las actividades de investigación y desarrollo ofreciendo recursos como laboratorios, financiamiento y asesoría académica.",
+                            "Los estudiantes pueden involucrarse en proyectos de I+D a través de iniciativas departamentales, programas de becas o colaboraciones con profesores."
+                          ]
+                        },
+                        {
+                            "tag": "art113_pregunta",
+                            "patterns": [
+                              "¿Cómo puedo acceder a subvenciones para proyectos estudiantiles?",
+                              "¿Qué tipo de proyectos estudiantiles son elegibles para subvenciones?",
+                              "¿Qué proceso debo seguir para solicitar una subvención?",
+                              "¿Hay límites en el monto de las subvenciones para proyectos estudiantiles?"
+                            ],
+                            "responses": [
+                              "Para acceder a subvenciones, debes presentar un proyecto que cumpla con los criterios de la universidad y seguir el proceso de solicitud establecido.",
+                              "El monto de las subvenciones puede variar, y se determina según la naturaleza y alcance del proyecto estudiantil."
+                            ]
+                          },
+                          {
+                            "tag": "art114_pregunta",
+                            "patterns": [
+                              "¿Cómo se manejan los asuntos de derechos de autor en la universidad?",
+                              "¿Qué debo hacer si creo que se han infringido mis derechos de autor?",
+                              "¿Hay políticas específicas sobre derechos de autor para trabajos académicos?",
+                              "¿Cómo protege la universidad los derechos de autor de sus estudiantes y profesores?"
+                            ],
+                            "responses": [
+                              "La universidad tiene políticas específicas para manejar los derechos de autor, protegiendo los trabajos académicos de estudiantes y profesores.",
+                              "Si crees que tus derechos de autor han sido infringidos, debes reportarlo a la autoridad correspondiente en la universidad para su evaluación y acción."
+                            ]
+                          },
+                          {
+                            "tag": "art115_pregunta",
+                            "patterns": [
+                              "¿Qué opciones de alojamiento ofrece la universidad para estudiantes de posgrado?",
+                              "¿Cómo solicito un lugar en la residencia para estudiantes de posgrado?",
+                              "¿Hay apoyo para encontrar alojamiento fuera del campus para estudiantes de posgrado?",
+                              "¿Cuáles son los requisitos para acceder al alojamiento universitario de posgrado?"
+                            ],
+                            "responses": [
+                                "La universidad ofrece opciones de alojamiento para estudiantes de posgrado, incluyendo residencias y apoyo para encontrar alojamiento fuera del campus.",
+                                "Para solicitar alojamiento, debes cumplir con ciertos requisitos y procedimientos, que pueden incluir solicitudes y evaluaciones de elegibilidad."
+                              ]
+                            },
+                            {
+                              "tag": "art116_pregunta",
+                              "patterns": [
+                                "¿Cómo se promueve la participación estudiantil en eventos deportivos?",
+                                "¿Qué tipo de eventos deportivos organiza la universidad?",
+                                "¿Cómo puedo unirme a un equipo deportivo de la universidad?",
+                                "¿Hay programas de becas para atletas estudiantiles?"
+                              ],
+                              "responses": [
+                                "La universidad fomenta la participación en eventos deportivos a través de una variedad de equipos y competiciones interuniversitarias.",
+                                "Puedes unirte a equipos deportivos a través de pruebas o selecciones. Existen programas de becas para atletas destacados en ciertos deportes."
+                              ]
+                            },
+                            {
+                                "tag": "art117_pregunta",
+                                "patterns": [
+                                  "¿Cómo puedo solicitar una exención de algún requisito académico?",
+                                  "¿Bajo qué circunstancias se consideran exenciones de requisitos?",
+                                  "¿Qué proceso debo seguir para obtener una exención académica?",
+                                  "¿Quién decide sobre las solicitudes de exención de requisitos?"
+                                ],
+                                "responses": [
+                                  "Las solicitudes de exención de requisitos académicos se manejan a través de un proceso formal, presentando tu caso ante la autoridad académica correspondiente.",
+                                  "Las decisiones sobre exenciones se basan en criterios específicos y son evaluadas caso por caso por un comité o la autoridad designada."
+                                ]
+                              },
+                              {
+                                "tag": "art118_pregunta",
+                                "patterns": [
+                                  "¿Qué actividades extracurriculares ofrece la universidad para el desarrollo personal?",
+                                  "¿Cómo puedo participar en actividades extracurriculares?",
+                                  "¿Hay actividades extracurriculares que contribuyan a mi desarrollo profesional?",
+                                  "¿Qué beneficios obtengo al participar en actividades extracurriculares?"
+                                ],
+                                "responses": [
+                                  "La universidad ofrece una amplia gama de actividades extracurriculares, desde deportes hasta clubes de interés y talleres de desarrollo personal y profesional.",
+                                  "Participar en estas actividades te brinda la oportunidad de desarrollar habilidades adicionales, hacer networking y enriquecer tu experiencia universitaria."
+                                ]
+                              },
+                              {
+                                "tag": "art119_pregunta",
+                                "patterns": [
+                                "¿Cómo se fomenta la innovación en el campus?",
+                                "¿Hay programas o concursos para promover ideas innovadoras entre los estudiantes?",
+                                "¿Qué recursos están disponibles para apoyar proyectos innovadores?",
+                                "¿Cómo puedo involucrarme en actividades de innovación en la universidad?"
+                                ],
+                                "responses": [
+                                "La universidad fomenta la innovación a través de programas específicos, concursos y apoyo para desarrollar proyectos innovadores.",
+                                "Puedes involucrarte en actividades de innovación participando en eventos organizados, presentando tus ideas en concursos o utilizando los recursos de apoyo disponibles para estudiantes."
+                                ]
+                                },
+                                {
+                                "tag": "art120_pregunta",
+                                "patterns": [
+                                "¿Qué tipo de apoyo ofrece la universidad para el bienestar emocional de los estudiantes?",
+                                "¿Hay servicios de consejería psicológica disponibles?",
+                                "¿Cómo puedo acceder a los servicios de salud mental en el campus?",
+                                "¿Qué iniciativas existen para promover la salud mental entre los estudiantes?"
+                                ],
+                                "responses": [
+                                "La universidad ofrece apoyo para el bienestar emocional de los estudiantes, incluyendo servicios de consejería psicológica y programas de salud mental.",
+                                "Puedes acceder a estos servicios a través de la oficina de bienestar estudiantil o el centro de salud del campus, donde se ofrecen diversos programas y terapias."
+                                ]
+                                },
+                                {
+                                    "tag": "art121_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se organizan los programas de intercambio con otras universidades?",
+                                      "¿Qué requisitos debo cumplir para participar en un intercambio con otra universidad?",
+                                      "¿Puedo convalidar créditos obtenidos en una universidad extranjera?",
+                                      "¿Cómo puedo postularme para un programa de intercambio internacional?"
+                                    ],
+                                    "responses": [
+                                      "Para participar en programas de intercambio, debes cumplir con los requisitos académicos y de idioma, y seguir el proceso de solicitud de la universidad.",
+                                      "Los créditos obtenidos en universidades extranjeras generalmente pueden ser convalidados, sujeto a la evaluación y aprobación de la universidad."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art122_pregunta",
+                                    "patterns": [
+                                      "¿Qué políticas tiene la universidad para apoyar la diversidad cultural?",
+                                      "¿Cómo se promueve la inclusión de diferentes culturas en el campus?",
+                                      "¿Hay eventos o actividades que celebren la diversidad cultural?",
+                                      "¿Cómo puedo involucrarme en iniciativas de diversidad cultural?"
+                                    ],
+                                    "responses": [
+                                      "La universidad promueve la diversidad cultural a través de políticas inclusivas, eventos culturales y actividades que celebran diferentes culturas.",
+                                      "Puedes involucrarte en estas iniciativas asistiendo a eventos, uniéndote a clubes culturales o participando en programas de intercambio."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art123_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se gestionan las becas para estudios de investigación?",
+                                      "¿Qué criterios se consideran para otorgar becas de investigación?",
+                                      "¿Cómo puedo solicitar una beca para mi proyecto de investigación?",
+                                      "¿Existen límites en el monto de financiamiento para becas de investigación?"
+                                    ],
+                                    "responses": [
+                                      "Las becas para estudios de investigación se gestionan basándose en criterios como el mérito académico y la relevancia del proyecto.",
+                                      "Para solicitar una beca, presenta tu proyecto de investigación siguiendo las pautas de la universidad. El monto del financiamiento varía según el programa."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art124_pregunta",
+                                    "patterns": [
+                                      "¿Qué servicios ofrece la universidad para la orientación profesional?",
+                                      "¿Cómo puedo acceder a asesoramiento para mi carrera profesional?",
+                                      "¿Hay talleres o eventos de orientación profesional en la universidad?",
+                                      "¿Qué recursos están disponibles para ayudar en la búsqueda de empleo?"
+                                    ],
+                                    "responses": [
+                                      "La universidad ofrece servicios de orientación profesional, incluyendo asesoramiento individual, talleres y ferias de empleo.",
+                                      "Puedes acceder a estos recursos a través del centro de carreras o la oficina de servicios estudiantiles, que te ayudarán en la búsqueda de empleo y desarrollo de carrera."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art125_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se manejan las actualizaciones tecnológicas en la universidad?",
+                                      "¿Qué procesos sigue la universidad para introducir nueva tecnología?",
+                                      "¿Cómo puedo estar informado sobre las nuevas herramientas tecnológicas?",
+                                      "¿Hay capacitaciones disponibles para las nuevas plataformas tecnológicas?"
+                                    ],
+                                    "responses": [
+                                      "La universidad gestiona las actualizaciones tecnológicas mediante un proceso planificado y comunica los cambios a través de canales oficiales.",
+                                      "Se ofrecen capacitaciones y soporte para familiarizar a los estudiantes y al personal con las nuevas herramientas y plataformas tecnológicas."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art126_pregunta",
+                                    "patterns": [
+                                      "¿Cómo puedo involucrarme en iniciativas de sostenibilidad en la universidad?",
+                                      "¿Qué proyectos de sostenibilidad están disponibles para estudiantes?",
+                                      "¿Hay clubes o grupos enfocados en sostenibilidad en los que pueda participar?",
+                                      "¿Cómo contribuyen estas iniciativas a un campus más sostenible?"
+                                    ],
+                                    "responses": [
+                                      "Puedes involucrarte en iniciativas de sostenibilidad uniéndote a clubes estudiantiles, participando en proyectos específicos o asistiendo a eventos relacionados.",
+                                      "Estas iniciativas contribuyen a un campus más sostenible promoviendo prácticas ecológicas y aumentando la conciencia sobre temas ambientales."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art127_pregunta",
+                                    "patterns": [
+                                      "¿Qué políticas tiene la universidad para garantizar la equidad en la evaluación?",
+                                      "¿Cómo se manejan las apelaciones de calificaciones?",
+                                      "¿Qué procedimientos existen para revisar las evaluaciones de los estudiantes?",
+                                      "¿Hay algún comité que supervise la equidad en las evaluaciones académicas?"
+                                    ],
+                                    "responses": [
+                                      "La universidad cuenta con políticas y procedimientos para garantizar la equidad en las evaluaciones, incluyendo un proceso formal para apelaciones de calificaciones.",
+                                      "Existe un comité o instancia dedicada a supervisar y revisar las evaluaciones académicas, asegurando justicia y transparencia en el proceso."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art128_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se fomenta la colaboración entre diferentes facultades?",
+                                      "¿Existen programas interdisciplinarios entre facultades?",
+                                      "¿Cómo puedo participar en proyectos que involucren varias disciplinas?",
+                                      "¿Qué beneficios hay en la colaboración interfacultativa?"
+                                    ],
+                                    "responses": [
+                                      "La universidad promueve la colaboración entre facultades a través de programas interdisciplinarios y proyectos que fomentan la integración de diversas áreas del conocimiento.",
+                                      "Participar en estos proyectos te permite obtener una perspectiva más amplia y desarrollar habilidades colaborativas trabajando con estudiantes y profesores de diferentes disciplinas."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art129_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se promueven los intercambios culturales en la universidad?",
+                                      "¿Qué oportunidades hay para participar en programas culturales internacionales?",
+                                      "¿Cómo me beneficio de participar en intercambios culturales?",
+                                      "¿Qué requisitos debo cumplir para unirme a un programa de intercambio cultural?"
+                                    ],
+                                    "responses": [
+                                      "La universidad promueve intercambios culturales a través de programas internacionales, brindando oportunidades para experimentar diferentes culturas y aprender de ellas.",
+                                      "Para participar, generalmente debes cumplir con requisitos académicos y de idioma, y el beneficio principal es la ampliación de tus horizontes culturales y personales."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art130_pregunta",
+                                    "patterns": [
+                                      "¿Qué recursos ofrece la universidad para el desarrollo de habilidades lingüísticas?",
+                                      "¿Cómo puedo mejorar mis habilidades en un segundo idioma?",
+                                      "¿Hay programas de idiomas disponibles para estudiantes?",
+                                      "¿Ofrece la universidad apoyo en la preparación de exámenes de idiomas?"
+                                    ],
+                                    "responses": [
+                                      "La universidad ofrece recursos para el desarrollo de habilidades lingüísticas, incluyendo cursos de idiomas y programas de inmersión lingüística.",
+                                      "También se brinda apoyo para la preparación de exámenes de idiomas, ayudando a los estudiantes a mejorar sus competencias en un segundo idioma."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art131_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se aborda la educación ambiental en la universidad?",
+                                      "¿Qué iniciativas existen para promover la sostenibilidad en el campus?",
+                                      "¿Cómo puedo involucrarme en actividades de sostenibilidad ambiental?",
+                                      "¿Qué programas ofrece la universidad para fomentar la conciencia ambiental?"
+                                    ],
+                                    "responses": [
+                                      "La universidad aborda la educación ambiental a través de iniciativas y programas que promueven la sostenibilidad y la conciencia ambiental en el campus.",
+                                      "Puedes involucrarte en estas actividades participando en proyectos ecológicos, clubes de sostenibilidad y eventos relacionados con el medio ambiente."
+                                    ]
+                                  },
+                                  {
+                                    "tag": "art132_pregunta",
+                                    "patterns": [
+                                      "¿Cómo se facilita la transición de estudiantes de pregrado a posgrado?",
+                                      "¿Qué programas de orientación existen para estudiantes que desean continuar con estudios de posgrado?",
+                                      "¿Cómo me preparo para la admisión a programas de posgrado?",
+                                      "¿Hay asesoramiento disponible para seleccionar un programa de posgrado de posgrado?"
+                                    ],
+                                    "responses": [
+                                    "La universidad facilita la transición a estudios de posgrado a través de programas de orientación y asesoramiento para ayudar a los estudiantes a elegir el programa adecuado y prepararse para la admisión.",
+                                    "Existen recursos y sesiones de asesoramiento para guiarte en la selección de programas de posgrado y en la preparación de los requisitos de admisión."
+                                    ]
+                                    },
+                                    {
+                                        "tag": "art133_pregunta",
+                                        "patterns": [
+                                          "¿Cómo se manejan las prácticas profesionales en la universidad?",
+                                          "¿Qué requisitos debo cumplir para acceder a prácticas profesionales?",
+                                          "¿Cómo puedo encontrar oportunidades de prácticas relacionadas con mi carrera?",
+                                          "¿Hay algún apoyo o asesoramiento para las prácticas profesionales?"
+                                        ],
+                                        "responses": [
+                                          "Las prácticas profesionales se manejan a través de la oficina de prácticas de la universidad, con requisitos que pueden incluir un cierto número de créditos completados y un promedio mínimo.",
+                                          "La universidad ofrece asesoramiento y facilita la conexión con oportunidades de prácticas en empresas y organizaciones relacionadas con tu campo de estudio."
+                                        ]
+                                      },
+                                      {
+                                        "tag": "art134_pregunta",
+                                        "patterns": [
+                                          "¿Qué medidas toma la universidad para garantizar la seguridad en el campus?",
+                                          "¿Cómo puedo reportar un incidente de seguridad en el campus?",
+                                          "¿Existen protocolos de emergencia en la universidad?",
+                                          "¿Qué recursos están disponibles para la seguridad de los estudiantes?"
+                                        ],
+                                        "responses": [
+                                          "La universidad implementa medidas de seguridad rigurosas, incluyendo vigilancia y protocolos de emergencia, para garantizar un ambiente seguro en el campus.",
+                                          "Puedes reportar incidentes de seguridad a través del departamento de seguridad de la universidad o utilizando los sistemas de reporte establecidos y botones de emergencia en el campus."
+                                        ]
+                                        },
+                                        {
+                                        "tag": "art135_pregunta",
+                                        "patterns": [
+                                        "¿Cómo se promueve la ética académica entre los estudiantes?",
+                                        "¿Qué recursos ofrece la universidad para fomentar la integridad académica?",
+                                        "¿Hay cursos o talleres sobre ética académica?",
+                                        "¿Cómo se abordan las violaciones de la ética académica en la universidad?"
+                                        ],
+                                        "responses": [
+                                        "La universidad promueve la ética académica a través de políticas claras, recursos educativos, y talleres o cursos específicos sobre el tema.",
+                                        "Las violaciones de la ética académica se tratan con seriedad, y pueden llevar a sanciones académicas, dependiendo de la gravedad del caso."
+                                        ]
+                                        },
+                                        {
+                                        "tag": "art136_pregunta",
+                                        "patterns": [
+                                        "¿Qué iniciativas existen para fomentar la colaboración internacional en la investigación?",
+                                        "¿Cómo puedo participar en proyectos de investigación internacionales?",
+                                        "¿Hay acuerdos con instituciones extranjeras para la investigación?",
+                                        "¿Qué apoyo ofrece la universidad para colaboraciones internacionales?"
+                                        ],
+                                        "responses": [
+                                        "La universidad fomenta la colaboración internacional en la investigación a través de acuerdos con instituciones extranjeras y programas de intercambio de investigadores.",
+                                        "Puedes participar en estas iniciativas contactando a la oficina de relaciones internacionales o a tu departamento académico para conocer las oportunidades disponibles."
+                                        ]
+                                        }                 
+    ]
+  }
+  

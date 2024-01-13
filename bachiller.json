@@ -1,0 +1,119 @@
+{
+    "intents": [
+      {
+        "tag": "art05_pregunta",
+        "patterns": [
+          "¿Qué requisitos debo cumplir para el bachillerato automático?",
+          "¿Es posible obtener el bachillerato automático si comencé mis estudios antes de 2015?",
+          "¿Cómo puedo solicitar el grado de bachiller de manera automática?",
+          "¿Qué estudiantes califican para el bachillerato automático en la Universidad Nacional de Moquegua?"
+        ],
+        "responses": [
+          "Puedes obtener el bachillerato automático si completaste tus estudios entre 2020 y 2023, o si iniciaste tus estudios antes del fin de 2015. Debes solicitarlo formalmente en la universidad.",
+          "Si iniciaste tus estudios antes del 2015, también calificas para el bachillerato automático. Es un proceso excepcional que te exime de ciertos requisitos habituales.",
+          "Para solicitar el grado de bachiller de manera automática, debes presentar una solicitud a la universidad, cumpliendo con los criterios de haber estudiado durante los periodos indicados.",
+          "Los estudiantes que completaron sus estudios entre 2020 y 2023, así como los que empezaron antes de 2016, pueden acceder al bachillerato automático, presentando una solicitud en la universidad."
+        ]
+      },
+      {
+        "tag": "art06_pregunta",
+        "patterns": [
+          "¿Qué necesito para realizar mi trabajo de investigación para el bachillerato?",
+          "¿Puedo hacer mi trabajo de investigación en grupo?",
+          "¿Qué tipo de temas puedo elegir para mi trabajo de investigación de bachiller?",
+          "¿Cuáles son los requisitos básicos para comenzar un trabajo de investigación de bachiller?"
+        ],
+        "responses": [
+          "Para realizar tu trabajo de investigación, debes elegir un tema acorde a las líneas de investigación de tu escuela y seguir un proceso de generación de conocimiento.",
+          "El trabajo de investigación puede ser individual o en grupo (máximo dos personas). Debe ser un trabajo riguroso, objetivo y estar sujeto a debate público.",
+          "Puedes elegir temas de naturaleza cualitativa, cuantitativa o mixta, y deben ser acordes a las líneas de investigación definidas por tu Escuela Profesional.",
+          "Antes de iniciar tu trabajo de investigación, debes presentar un plan que incluya título, justificación, objetivos, metodología y expectativas de resultados."
+        ]
+      },
+
+      {
+        "tag": "art07_pregunta",
+        "patterns": [     
+        "¿Qué debo presentar para iniciar el trámite de Bachiller?",    
+        "¿Cómo se completa mi expediente de Bachiller?",        
+        "¿Quién se encarga de completar los documentos para obtener el grado de Bachiller?"        
+        ], 
+        "responses": [        
+        "Debes presentar una solicitud a la Escuela Profesional indicando el pago realizado y 2 fotos tamaño pasaporte. La Dirección de Actividades Académicas completa tu expediente.",        
+        "Tu expediente se completa con la constancia de prácticas, certificado de inglés, certificado de estudios, constancias de actividades extracurriculares y no adeudos. La Dirección de Actividades Académicas se encarga.",        
+        "La Dirección de Actividades y Servicios Académicos es responsable de reunir los documentos faltantes en tu expediente dentro de 7 días hábiles, antes de derivarlo a la Secretaría General."       
+        ]
+        },    
+
+        {        
+        "tag": "art08_pregunta",              
+        "patterns": [        
+        "¿Qué proceso sigue mi expediente de Bachiller cuando está completo?",        
+        "Una vez listo mi expediente de Bachiller, ¿a dónde se deriva?",        
+        "¿Quién aprueba finalmente el otorgamiento de mi grado de Bachiller?"        
+        ],        
+        "responses": [        
+        "Tu expediente completo pasa de la Dirección de Actividades Académicas a la Secretaría General, quien lo presenta a la Comisión Organizadora para su aprobación.",        
+        "Cuando tu expediente está completo, Secretaría General lo eleva a la Presidencia de la Comisión Organizadora para su tratamiento y aprobación.",        
+        "La Comisión Organizadora de la universidad es la encargada de aprobar y autorizar que se te confiera el Grado Académico de Bachiller."        
+        ]
+        },    
+
+        {        
+        "tag": "art09_pregunta",        
+        "patterns": [        
+        "Una vez aprobado, ¿cómo obtengo mi Diploma de Bachiller?",        
+        "¿Quién emite la Resolución de mi Grado de Bachiller?",        
+        "¿Cómo se registra mi Grado Académico de Bachiller?"        
+        ],        
+        "responses": [        
+        "La Secretaría General emite la Resolución, expide el Diploma de Bachiller y lo registra en el libro correspondiente.",
+        "Secretaría General se encarga de emitir la Resolución de aprobación y registrar tu Grado de Bachiller en el libro respectivo.",
+        "Tu Grado Académico de Bachiller se registra en el Libro correspondiente por la Secretaría General, quien también emite la Resolución."
+        ]
+        },     
+
+        {        
+        "tag": "art010_pregunta",        
+        "patterns": [        
+        "¿Cómo luce el Diploma de Bachiller?",        
+        "¿Quiénes firman en el Diploma de Bachiller?",        
+        "¿Recibo mi Diploma de Bachiller en una ceremonia?"        
+        ],        
+        "responses": [        
+        "El Diploma de Bachiller es firmado por el Presidente de la Comisión Organizadora, el Secretario General, el Director de Escuela y tú.",
+        "Tu Diploma de Bachiller es rubricado por las autoridades de la Universidad Nacional de Moquegua y por ti.",
+        "La Secretaría General y la Oficina de Imagen Institucional organizan la ceremonia de entrega de los Diplomas de Bachiller."
+        ]
+        },
+        
+        {        
+        "tag": "art011_pregunta",        
+        "patterns": [        
+        "¿La Universidad Nacional de Moquegua otorga títulos profesionales?",        
+        "¿Quiénes pueden obtener un título profesional en la universidad?",        
+        "¿Qué requisito debo cumplir para poder optar a un título profesional?"        
+        ],
+        "responses": [        
+        "La Universidad Nacional de Moquegua otorga el Título Profesional a quienes obtuvieron el Grado de Bachiller en la misma universidad.",
+        "Los bachilleres de la universidad o de una universidad con licencia denegada pueden obtener su título profesional en la Universidad Nacional de Moquegua.",
+        "Para poder optar al título profesional debes haber obtenido primero el Grado Académico de Bachiller en la universidad."
+        ]
+        },        
+
+        {        
+        "tag": "art012_pregunta",        
+        "patterns": [        
+        "¿Cuáles son las modalidades para obtener el título profesional?",        
+        "¿Qué opciones tengo para titularme profesionalmente?",        
+        "¿Cómo puedo elegir la modalidad para obtener mi título profesional?"        
+        ],        
+        "responses": [        
+        "Puedes optar por presentar una Tesis, un Trabajo de Suficiencia Profesional con 2 años de experiencia o rindiendo un Examen Profesional.",
+        "Las modalidades son: Tesis, Trabajo de Suficiencia Profesional o Examen Profesional. Debes cumplir los requisitos de la modalidad elegida.",
+        "Tienes 3 opciones de titulación: Tesis, Trabajo de Suficiencia Profesional o Examen Profesional. Elige la que mejor se ajuste a tu perfil y necesidades."
+        ]
+        }
+    ]
+  }
+  

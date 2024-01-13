@@ -1,0 +1,694 @@
+{
+    "intents": [
+      {
+        "tag": "art012_pregunta",
+        "patterns": [
+          "¿Cómo se maneja la ceremonia de entrega de diplomas de bachiller?",
+          "¿Puedo elegir no asistir a la ceremonia de graduación?",
+          "¿Cuándo se realiza la ceremonia de entrega de diplomas?",
+          "¿Se entrega el diploma de bachiller en una ceremonia especial?"
+        ],
+        "responses": [
+          "La entrega de diplomas de bachiller se realiza en una ceremonia organizada por la universidad. Puedes consultar las fechas y detalles con la Secretaría General.",
+          "Si prefieres no asistir a la ceremonia de graduación, puedes coordinar la recepción de tu diploma directamente con la oficina de Secretaría."
+        ]
+      },
+      {
+        "tag": "art013_pregunta",
+        "patterns": [
+          "¿Qué necesito para obtener mi título profesional después del bachillerato?",
+          "¿Cómo puedo tramitar mi título profesional?",
+          "¿Hay diferentes maneras de obtener el título profesional?",
+          "¿Qué proceso debo seguir para titularme después de ser bachiller?"
+        ],
+        "responses": [
+          "Para obtener tu título profesional, debes haber obtenido previamente el grado de bachiller y luego optar por una de las modalidades de titulación disponibles.",
+          "El proceso de titulación incluye presentar y aprobar una tesis, trabajo de suficiencia profesional o un examen profesional, dependiendo de la modalidad que elijas."
+        ]
+      },
+      {
+        "tag": "art014_pregunta",
+        "patterns": [
+          "¿Cuáles son las formas de obtener el título profesional en la universidad?",
+          "¿Puedo optar por una tesis para obtener mi título profesional?",
+          "¿Existe alguna modalidad de titulación basada en la experiencia laboral?",
+          "¿Cómo funciona el examen profesional para titularse?"
+        ],
+        "responses": [
+          "Puedes optar por diferentes modalidades para obtener tu título profesional, como la presentación de una tesis, un trabajo de suficiencia profesional basado en tu experiencia laboral, o un examen profesional.",
+          "La modalidad de tesis implica un proceso de investigación y defensa pública, mientras que el trabajo de suficiencia profesional y el examen profesional tienen sus propios requisitos y procedimientos específicos."
+        ]
+      },
+      {
+        "tag": "art015_pregunta",
+        "patterns": [
+          "¿Cómo puedo realizar un cambio de especialidad dentro de la universidad?",
+          "¿Qué requisitos debo cumplir para cambiar de carrera?",
+          "¿Hay algún límite de tiempo para solicitar un cambio de especialidad?",
+          "¿Puedo cambiar de carrera después de haber avanzado varios ciclos?"
+        ],
+        "responses": [
+          "Para cambiar de especialidad, debes cumplir con los requisitos que establece la universidad, como un promedio mínimo y no tener asignaturas pendientes.",
+          "El cambio de carrera es posible en cualquier momento de tu carrera, pero ten en cuenta que puede afectar la duración total de tus estudios."
+        ]
+      },
+      {
+        "tag": "art016_pregunta",
+        "patterns": [
+          "¿Qué hago si tengo que retirarme temporalmente de la universidad?",
+          "¿Hay algún procedimiento especial para solicitar una licencia académica?",
+          "¿Puedo pausar mis estudios por motivos personales?",
+          "¿Cómo solicito un retiro temporal de mis estudios?"
+        ],
+        "responses": [
+          "Si necesitas retirarte temporalmente, debes solicitar una licencia académica. Esto se hace presentando una solicitud justificada a la universidad.",
+          "Puedes pausar tus estudios por razones personales o de salud, siguiendo el procedimiento establecido y reanudarlos cuando estés listo."
+        ]
+      },
+      {
+        "tag": "art017_pregunta",
+        "patterns": [
+          "¿Cómo se manejan las quejas y sugerencias de los estudiantes?",
+          "¿Dónde puedo presentar una queja sobre un curso o profesor?",
+          "¿Existe un proceso formal para dar retroalimentación a la universidad?",
+          "¿Hay un canal de comunicación para las inquietudes estudiantiles?"
+        ],
+        "responses": [
+          "La universidad cuenta con canales formales para quejas y sugerencias. Puedes presentarlas en la oficina de asuntos estudiantiles o a través de la plataforma digital.",
+          "Para quejas sobre cursos o profesores, sigue el procedimiento formal, proporcionando detalles específicos para que la universidad pueda tomar medidas."
+        ]
+      },
+      {
+        "tag": "art018_pregunta",
+        "patterns": [
+          "¿Cómo se manejan las sanciones académicas en la universidad?",
+          "¿Qué tipo de sanciones existen por faltas académicas?",
+          "¿Puedo apelar una sanción académica?",
+          "¿Cuáles son las consecuencias de cometer plagio?"
+        ],
+        "responses": [
+          "Las sanciones académicas varían según la falta, desde amonestaciones hasta expulsión. El plagio, por ejemplo, se sanciona severamente.",
+          "Si recibes una sanción académica, tienes derecho a apelar presentando una justificación y evidencia a la autoridad competente."
+        ]
+      },
+      {
+        "tag": "art019_pregunta",
+        "patterns": [
+          "¿Cómo puedo solicitar una exoneración de cursos?",
+          "¿Bajo qué condiciones puedo ser exonerado de un curso?",
+          "¿Qué necesito para pedir una exoneración de asignaturas?",
+          "¿Es posible exonerarse de ciertos requisitos académicos?"
+        ],
+        "responses": [
+          "Para solicitar una exoneración de cursos, necesitas cumplir ciertos criterios como tener un buen rendimiento académico o motivos justificados.",
+          "La exoneración de cursos se considera caso por caso. Debes presentar tu solicitud con los documentos de respaldo necesarios."
+        ]
+      },
+      {
+        "tag": "art020_pregunta",
+        "patterns": [
+          "¿Qué debo hacer para convalidar cursos de otra universidad?",
+          "¿Cómo funciona el proceso de convalidación de asignaturas?",
+          "¿Puedo convalidar cursos si me cambio de universidad?",
+          "¿Hay algún límite en la cantidad de cursos que puedo convalidar?"
+        ],
+        "responses": [
+          "Para convalidar cursos de otra universidad, debes presentar los syllabus y tus calificaciones para su evaluación por la facultad.",
+          "La cantidad de cursos que puedes convalidar depende de la similitud con el plan de estudios y la decisión de la facultad."
+        ]
+      },
+      {
+        "tag": "art021_pregunta",
+        "patterns": [
+          "¿Cómo puedo participar en actividades extracurriculares?",
+          "¿Qué tipo de actividades extracurriculares ofrece la universidad?",
+          "¿Las actividades extracurriculares cuentan para mi promedio?",
+          "¿Cómo se reconocen las actividades extracurriculares?"
+        ],
+        "responses": [
+          "La universidad ofrece diversas actividades extracurriculares, desde deportes hasta clubes de estudio. Puedes inscribirte a través de la oficina de asuntos estudiantiles.",
+          "Las actividades extracurriculares suelen ser reconocidas por su valor formativo, aunque generalmente no afectan tu promedio académico."
+        ]
+      },
+      {
+        "tag": "art022_pregunta",
+        "patterns": [
+          "¿Cómo se evalúa la asistencia a clases?",
+          "¿Es obligatorio asistir a todas las clases?",
+          "¿Qué pasa si no cumplo con el porcentaje de asistencia requerido?",
+          "¿Puedo justificar inasistencias en alguna asignatura?"
+        ],
+        "responses": [
+          "La asistencia a clases es importante y se evalúa por cada curso. Si no cumples con el mínimo requerido, podrías tener problemas para aprobar.",
+          "Si tienes inasistencias justificadas, puedes presentar la documentación necesaria para que sean consideradas por tu profesor."
+        ]
+      },
+      {
+        "tag": "art023_pregunta",
+        "patterns": [
+          "¿Cómo puedo acceder a becas de estudio?",
+          "¿Qué requisitos debo cumplir para obtener una beca?",
+          "¿Hay becas para estudiantes de bajos recursos?",
+          "¿Qué tipo de becas ofrece la universidad?"
+        ],
+        "responses": [
+          "La universidad ofrece becas basadas en mérito académico, necesidad económica y otros criterios. Debes consultar en la oficina de becas para más información.",
+          "Para obtener una beca, debes cumplir con los requisitos específicos que varían según el tipo de beca. Incluyen rendimiento académico y situación económica."
+        ]
+      },
+      {
+        "tag": "art024_pregunta",
+        "patterns": [
+          "¿Cómo se manejan las tutorías académicas?",
+          "¿Puedo tener un tutor para asignaturas difíciles?",
+          "¿Qué debo hacer si necesito apoyo académico adicional?",
+          "¿Hay tutores disponibles para todas las materias?"
+        ],
+        "responses": [
+          "Las tutorías académicas están disponibles para apoyarte en asignaturas difíciles. Puedes solicitarlas a través de tu facultad o departamento académico.",
+          "No todas las materias tienen tutores asignados, pero la universidad se esfuerza por brindar apoyo académico donde sea necesario."
+        ]
+      },
+      {
+        "tag": "art025_pregunta",
+        "patterns": [
+          "¿Cómo se gestionan los intercambios internacionales?",
+          "¿Qué requisitos debo cumplir para participar en un intercambio internacional?",
+          "¿Puedo convalidar cursos tomados en el extranjero?",
+          "¿Hay becas disponibles para intercambios internacionales?"
+        ],
+        "responses": [
+          "Para participar en intercambios internacionales, debes cumplir con requisitos como rendimiento académico y nivel de idioma. Puedes convalidar cursos tomados en el extranjero.",
+          "Existen becas para intercambios internacionales. Debes informarte en la oficina de relaciones internacionales sobre las opciones y requisitos."
+        ]
+      },
+      {
+        "tag": "art026_pregunta",
+        "patterns": [
+          "¿Cómo puedo solicitar una revisión de mi tesis?",
+          "¿Qué hago si tengo discrepancias con la evaluación de mi tesis?",
+          "¿Existe un procedimiento para apelar la calificación de mi tesis?",
+          "¿Puedo pedir una segunda opinión sobre mi proyecto de tesis?"
+        ],
+        "responses": [
+          "Si tienes dudas sobre la evaluación de tu tesis, puedes solicitar una revisión. Debes seguir el procedimiento oficial y presentar una justificación sólida.",
+          "Para una segunda opinión sobre tu tesis, puedes solicitar formalmente una reevaluación, pero ten en cuenta que esto debe estar bien fundamentado."
+        ]
+      },
+      {
+        "tag": "art027_pregunta",
+        "patterns": [
+          "¿Qué necesito para postular a un doctorado?",
+          "¿Cuáles son los requisitos para iniciar un programa de doctorado?",
+          "¿Puedo hacer un doctorado después de terminar mi maestría?",
+          "¿Hay algún requisito de experiencia para acceder a un doctorado?"
+        ],
+        "responses": [
+          "Para postular a un doctorado, generalmente necesitas tener una maestría o equivalente y cumplir con otros requisitos específicos del programa.",
+          "Además de tener una maestría, algunos programas de doctorado pueden requerir experiencia de investigación o profesional en el campo de estudio."
+        ]
+      },
+      {
+        "tag": "art028_pregunta",
+        "patterns": [
+          "¿Cómo se eligen los temas de investigación en los doctorados?",
+          "¿Puedo proponer mi propio tema de investigación para el doctorado?",
+          "¿Quién supervisa los proyectos de investigación doctoral?",
+          "¿Existe alguna limitación en los temas de investigación para doctorados?"
+        ],
+        "responses": [
+          "Puedes proponer tu propio tema de investigación doctoral, sujeto a la aprobación y supervisión de un asesor académico.",
+          "Los temas de investigación deben alinearse con las áreas de interés de la facultad y cumplir con criterios académicos rigurosos."
+        ]
+      },
+      {
+        "tag": "art029_pregunta",
+        "patterns": [
+          "¿Cuáles son los requisitos para publicar mi tesis de doctorado?",
+          "¿Necesito publicar mi investigación doctoral en revistas específicas?",
+          "¿Cómo se maneja la publicación de investigaciones doctorales?",
+          "¿Es obligatorio publicar mi tesis de doctorado?"
+        ],
+        "responses": [
+          "La publicación de tu investigación doctoral es un requisito importante. Debes seguir las pautas de la universidad para publicar en revistas académicas reconocidas.",
+          "No siempre es obligatorio publicar en revistas específicas, pero tu investigación debe cumplir con estándares de calidad y ser aprobada por tu comité académico."
+        ]
+      },
+      {
+        "tag": "art030_pregunta",
+        "patterns": [
+          "¿Cómo se manejan las inasistencias en exámenes finales?",
+          "¿Qué hago si no puedo asistir a un examen final?",
+          "¿Es posible reprogramar un examen final?",
+          "¿Qué justificaciones se aceptan para faltar a un examen final?"
+        ],
+        "responses": [
+          "Si no puedes asistir a un examen final, es importante notificarlo con anticipación y presentar una justificación válida para considerar una reprogramación.",
+          "Las inasistencias en exámenes finales se manejan caso por caso, y las justificaciones válidas suelen incluir emergencias médicas o situaciones de fuerza mayor."
+        ]
+      },
+      {
+        "tag": "art031_pregunta",
+        "patterns": [
+          "¿Cómo puedo acceder a los programas de ayuda financiera?",
+          "¿Qué opciones de financiamiento ofrece la universidad?",
+          "¿Hay becas o préstamos para estudiantes con dificultades económicas?",
+          "¿Cómo solicito asistencia económica para mis estudios?"
+        ],
+        "responses": [
+          "La universidad ofrece varias opciones de ayuda financiera, incluyendo becas y préstamos. Puedes consultar en la oficina de bienestar estudiantil para más información.",
+          "Para solicitar asistencia económica, debes cumplir con ciertos requisitos y presentar la documentación necesaria que demuestre tu necesidad."
+        ]
+      },
+      {
+        "tag": "art032_pregunta",
+        "patterns": [
+          "¿Cuáles son los requisitos para ser asistente de cátedra?",
+          "¿Cómo puedo postularme para ser asistente de cátedra?",
+          "¿Qué beneficios tengo como asistente de cátedra?",
+          "¿Hay alguna limitación en el número de asistentes de cátedra por curso?"
+        ],
+        "responses": [
+          "Para ser asistente de cátedra, debes cumplir con requisitos como un buen rendimiento académico y la aprobación del profesor titular.",
+          "Los beneficios de ser asistente de cátedra incluyen experiencia práctica y, en algunos casos, una compensación o créditos académicos."
+        ]
+      },
+      {
+        "tag": "art033_pregunta",
+        "patterns": [
+          "¿Qué debo hacer si tengo conflictos con un profesor?",
+          "¿Cómo se resuelven los problemas entre estudiantes y profesores?",
+          "¿A quién puedo acudir si tengo un problema con un docente?",
+          "¿Existen procedimientos para tratar desacuerdos académicos?"
+        ],
+        "responses": [
+          "Si tienes conflictos con un profesor, es recomendable primero tratar de resolverlo directamente con el docente. Si no es posible, puedes acudir a la coordinación académica.",
+          "La universidad tiene procedimientos para manejar desacuerdos académicos, asegurando que se traten de manera justa y respetuosa."
+        ]
+      },
+      {
+        "tag": "art034_pregunta",
+        "patterns": [
+          "¿Cómo se manejan los cambios de notas después de publicadas?",
+          "¿Puedo solicitar una revisión de mi nota final?",
+          "¿Qué hago si hay un error en la calificación publicada?",
+          "¿Existe un plazo para solicitar la corrección de una nota?"
+        ],
+        "responses": [
+          "Si crees que hay un error en tu nota publicada, debes solicitar una revisión en un plazo determinado después de la publicación.",
+          "Los cambios de notas se manejan a través de un proceso formal en el que debes presentar las pruebas del error o malentendido en tu calificación."
+        ]
+      },
+      {
+        "tag": "art035_pregunta",
+        "patterns": [
+          "¿Cómo puedo presentar una queja académica?",
+          "¿A dónde debo dirigirme si tengo un problema con un curso?",
+          "¿Qué procedimiento sigo para una queja sobre una clase?",
+          "¿Hay un formato específico para presentar quejas académicas?"
+        ],
+        "responses": [
+          "Para presentar una queja académica, debes seguir el procedimiento oficial, que suele incluir dirigirte a la coordinación de tu facultad o escuela.",
+          "Es importante que presentes tu queja de manera formal y detallada, preferiblemente en el formato especificado por la universidad."
+        ]
+      },
+      {
+        "tag": "art036_pregunta",
+        "patterns": [
+          "¿Qué sucede si abandono un curso después de inscribirme?",
+          "¿Cómo afecta el abandono de un curso a mi récord académico?",
+          "¿Puedo retirarme de un curso sin penalizaciones?",
+          "¿Hasta cuándo puedo retirarme de un curso?"
+        ],
+        "responses": [
+          "El abandono de un curso después de la inscripción puede afectar tu récord académico y podría conllevar penalizaciones según las políticas de la universidad.",
+          "Generalmente, hay un plazo establecido para retirarte de un curso sin penalizaciones. Debes consultar las fechas límite y procedimientos con tu facultad."
+        ]
+      },
+      {
+        "tag": "art037_pregunta",
+        "patterns": [
+          "¿Cómo se evalúan los trabajos de investigación?",
+          "¿Qué criterios se utilizan para calificar mi tesis?",
+          "¿Quién decide la nota final de mi proyecto de investigación?",
+          "¿Puedo apelar la calificación de mi trabajo de investigación?"
+        ],
+        "responses": [
+          "Los trabajos de investigación se evalúan según criterios académicos establecidos, incluyendo la calidad del contenido, metodología y presentación.",
+          "La nota final es decidida por un comité evaluador. Si no estás de acuerdo con la calificación, puedes seguir el procedimiento de apelación establecido."
+        ]
+      },
+      {
+        "tag": "art038_pregunta",
+        "patterns": [
+          "¿Cuáles son los requisitos para la graduación?",
+          "¿Qué debo hacer para completar mi proceso de graduación?",
+          "¿Qué documentos necesito para solicitar mi título?",
+          "¿Hay alguna ceremonia de graduación obligatoria?"
+        ],
+        "responses": [
+          "Para graduarte, debes cumplir con todos los requisitos académicos y administrativos, incluyendo la presentación de documentos necesarios para tu título.",
+          "La participación en la ceremonia de graduación puede ser obligatoria o voluntaria, dependiendo de las políticas de la universidad."
+        ]
+      },
+      {
+        "tag": "art039_pregunta",
+        "patterns": [
+          "¿Qué pasa si no cumplo con los requisitos mínimos de un curso?",
+          "¿Cómo afecta reprobar un curso a mi avance académico?",
+          "¿Puedo repetir un curso que he reprobado?",
+          "¿Hay límite de veces que puedo tomar un mismo curso?"
+        ],
+        "responses": [
+          "Si no cumples con los requisitos mínimos o repruebas un curso, esto puede afectar tu avance y promedio académico. Generalmente, puedes retomar el curso.",
+          "Existe un límite en la cantidad de veces que puedes inscribirte en el mismo curso, variando según las políticas de la universidad."
+        ]
+      },
+      {
+        "tag": "art040_pregunta",
+        "patterns": [
+          "¿Cómo se maneja la transferencia de créditos de otra universidad?",
+          "¿Puedo transferir créditos de cursos tomados en el extranjero?",
+          "¿Qué criterios se usan para aceptar créditos de otra institución?",
+          "¿Hay un límite en la cantidad de créditos que puedo transferir?"
+        ],
+        "responses": [
+          "La transferencia de créditos de otra institución se basa en la equivalencia y relevancia de los cursos. Debes presentar la documentación y sílabos correspondientes.",
+          "Existe un límite en la cantidad de créditos transferibles, y cada caso se evalúa individualmente según las normativas de la universidad."
+        ]
+      },
+      {
+        "tag": "art041_pregunta",
+        "patterns": [
+          "¿Qué debo hacer si me siento discriminado en la universidad?",
+          "¿Hay un procedimiento para denunciar casos de discriminación?",
+          "¿A quién acudo si soy víctima de discriminación en el campus?",
+          "¿Cómo asegura la universidad un ambiente libre de discriminación?"
+        ],
+        "responses": [
+          "Si experimentas discriminación, es crucial reportarlo a través de los canales establecidos, como la oficina de bienestar estudiantil o recursos humanos.",
+          "La universidad tiene políticas para garantizar un ambiente libre de discriminación y tomará medidas serias ante cualquier denuncia válida."
+        ]
+      },
+      {
+        "tag": "art042_pregunta",
+        "patterns": [
+          "¿Cómo puedo acceder a servicios de consejería en la universidad?",
+          "¿Qué tipo de apoyo ofrece la consejería estudiantil?",
+          "¿Hay consejeros disponibles para temas personales y académicos?",
+          "¿Cómo me beneficia utilizar los servicios de consejería?"
+        ],
+        "responses": [
+          "Los servicios de consejería están disponibles para apoyarte en asuntos personales y académicos. Puedes acceder a ellos a través de la oficina de bienestar estudiantil.",
+          "Utilizar los servicios de consejería estudiantil puede ser muy beneficioso para tu bienestar emocional y éxito académico, ofreciendo un espacio para discutir y resolver problemas."
+        ]
+        },
+        {
+        "tag": "art043_pregunta",
+        "patterns": [
+        "¿Cómo se manejan los asuntos de seguridad en el campus?",
+        "¿Qué medidas de seguridad existen para los estudiantes en la universidad?",
+        "¿A quién debo informar sobre problemas de seguridad en el campus?",
+        "¿Cómo puedo contribuir a un campus seguro?"
+        ],
+        "responses": [
+        "La universidad toma en serio la seguridad en el campus, implementando medidas como vigilancia y protocolos de emergencia. Cualquier problema debe reportarse a la seguridad del campus.",
+        "Como estudiante, puedes contribuir a un campus seguro estando al tanto y reportando cualquier situación sospechosa o insegura."
+        ]
+        },
+        {
+            "tag": "art044_pregunta",
+            "patterns": [
+              "¿Cómo se aplican las políticas de igualdad de género en la universidad?",
+              "¿Qué hago si enfrento discriminación de género en la universidad?",
+              "¿Hay recursos específicos para problemas de género en el campus?",
+              "¿Cómo promueve la universidad la igualdad de género?"
+            ],
+            "responses": [
+              "La universidad tiene políticas estrictas contra la discriminación de género y promueve activamente la igualdad. Si enfrentas problemas, debes reportarlos a la oficina correspondiente.",
+              "Existen recursos y apoyos específicos para abordar problemas de género, incluyendo servicios de consejería y canales de denuncia."
+            ]
+          },
+          {
+            "tag": "art045_pregunta",
+            "patterns": [
+              "¿Cuáles son las normas para el uso de las instalaciones universitarias?",
+              "¿Cómo reservo un aula o espacio para actividades estudiantiles?",
+              "¿Hay restricciones en el uso de las instalaciones de la universidad?",
+              "¿Qué debo hacer para organizar un evento en el campus?"
+            ],
+            "responses": [
+              "Para usar instalaciones universitarias, debes seguir las normas establecidas y, en muchos casos, hacer una reserva previa a través de la oficina correspondiente.",
+              "El uso de las instalaciones para eventos requiere aprobación previa y debe cumplir con las políticas de seguridad y conducta de la universidad."
+            ]
+          },
+          {
+            "tag": "art046_pregunta",
+            "patterns": [
+              "¿Cómo se manejan las faltas disciplinarias graves?",
+              "¿Qué consecuencias hay por infringir las normas de conducta?",
+              "¿Qué tipo de acciones se consideran faltas graves en la universidad?",
+              "¿A quién acudo si soy testigo de una falta disciplinaria grave?"
+            ],
+            "responses": [
+              "Las faltas disciplinarias graves son tratadas seriamente y pueden llevar a sanciones severas, incluyendo la suspensión o expulsión.",
+              "Si eres testigo de una falta grave, es importante reportarla a las autoridades universitarias de manera inmediata para su investigación."
+            ]
+          },
+          {
+            "tag": "art047_pregunta",
+            "patterns": [
+              "¿Qué opciones de alojamiento ofrece la universidad?",
+              "¿Cómo solicito un lugar en la residencia estudiantil?",
+              "¿Hay apoyo para encontrar alojamiento fuera del campus?",
+              "¿Cuáles son los requisitos para acceder al alojamiento universitario?"
+            ],
+            "responses": [
+              "La universidad ofrece alojamiento en residencias estudiantiles, sujetas a disponibilidad y ciertos requisitos. Puedes solicitar un lugar a través de bienestar estudiantil.",
+              "Además de las residencias, la universidad puede proporcionar recursos y asesoramiento para encontrar alojamiento fuera del campus."
+            ]
+          },
+          {
+            "tag": "art048_pregunta",
+            "patterns": [
+              "¿Cómo puedo participar en actividades deportivas en la universidad?",
+              "¿Qué deportes ofrece la universidad para los estudiantes?",
+              "¿Hay equipos deportivos universitarios en los que pueda participar?",
+              "¿Cómo me inscribo en las actividades deportivas del campus?"
+            ],
+            "responses": [
+              "La universidad ofrece una variedad de actividades deportivas y equipos en los que puedes participar. La inscripción se realiza generalmente a través de la oficina de deportes.",
+              "Participar en deportes universitarios es una excelente manera de mantenerse activo y conectarse con otros estudiantes. Puedes encontrar información en la oficina de deportes o en el sitio web de la universidad."
+            ]
+          },
+          {
+            "tag": "art049_pregunta",
+            "patterns": [
+              "¿Cómo puedo acceder a los recursos de la biblioteca de la universidad?",
+              "¿Hay restricciones para el préstamo de libros en la biblioteca?",
+              "¿Cómo renuevo un libro que he sacado de la biblioteca?",
+              "¿La biblioteca ofrece recursos digitales o en línea?"
+            ],
+            "responses": [
+              "Para acceder a los recursos de la biblioteca, incluidos préstamos y renovaciones, puedes hacerlo en persona o a través del sistema en línea de la biblioteca.",
+              "La biblioteca ofrece tanto recursos físicos como digitales, y las políticas de préstamo pueden variar dependiendo del tipo de material."
+            ]
+          },
+          {
+            "tag": "art050_pregunta",
+            "patterns": [
+              "¿Cómo se manejan las situaciones de acoso en la universidad?",
+              "¿Qué debo hacer si soy víctima o testigo de acoso?",
+              "¿Hay protocolos específicos para reportar casos de acoso?",
+              "¿Qué medidas toma la universidad contra el acoso?"
+            ],
+            "responses": [
+              "La universidad toma muy en serio el acoso y tiene protocolos para reportarlo, incluyendo canales confidenciales de denuncia.",
+              "Si eres víctima o testigo de acoso, es importante reportarlo lo antes posible para que la universidad pueda tomar las medidas adecuadas."
+            ]
+          },
+          {
+            "tag": "art051_pregunta",
+            "patterns": [
+              "¿Qué servicios de salud ofrece la universidad a los estudiantes?",
+              "¿Cómo accedo a la atención médica en el campus?",
+              "¿Hay algún costo asociado con los servicios de salud estudiantiles?",
+              "¿Qué tipo de atención médica puedo recibir en la universidad?"
+            ],
+            "responses": [
+              "La universidad ofrece servicios de salud para estudiantes, que pueden incluir atención médica básica y asesoramiento. Generalmente, estos servicios son gratuitos o tienen un costo mínimo.",
+              "Puedes acceder a los servicios de salud estudiantil visitando la clínica del campus o contactando la oficina de bienestar estudiantil."
+            ]
+          },
+          {
+            "tag": "art052_pregunta",
+            "patterns": [
+              "¿Cómo funciona el sistema de tutorías entre estudiantes?",
+              "¿Puedo ser tutor de otros estudiantes en mi área de estudio?",
+              "¿Cómo me beneficio de ser tutor de otros estudiantes?",
+              "¿Cuáles son los requisitos para ser tutor estudiantil?"
+            ],
+            "responses": [
+              "El sistema de tutorías entre estudiantes permite a los alumnos con buen rendimiento académico ayudar a sus compañeros. Para ser tutor, debes cumplir ciertos requisitos académicos.",
+              "Ser tutor te brinda experiencia en enseñanza y puede ser una forma de reforzar tus propios conocimientos, además de ayudar a otros estudiantes."
+            ]
+          },
+          {
+            "tag": "art053_pregunta",
+            "patterns": [
+              "¿Cómo se promueve la cultura y el arte en la universidad?",
+              "¿Qué actividades culturales y artísticas ofrece la universidad?",
+              "¿Puedo participar en grupos artísticos o culturales del campus?",
+              "¿Hay exposiciones o eventos culturales en los que pueda participar?"
+            ],
+            "responses": [
+              "La universidad fomenta la cultura y el arte a través de una variedad de actividades, como grupos artísticos, exposiciones y eventos culturales. Puedes participar en muchos de estos.",
+              "Hay oportunidades para involucrarte en actividades culturales y artísticas, ya sea como participante o asistiendo a eventos y exposiciones organizados por la universidad."
+            ]
+          },
+          {
+            "tag": "art054_pregunta",
+            "patterns": [
+              "¿Cómo funciona el proceso de intercambio de estudiantes nacionales?",
+              "¿Qué necesito para participar en un intercambio nacional?",
+              "¿Puedo convalidar cursos de un intercambio nacional?",
+              "¿Hay límites en la duración de los intercambios nacionales?"
+            ],
+            "responses": [
+              "Para un intercambio nacional, necesitas cumplir con los requisitos de la universidad y de la institución de acogida. La convalidación de cursos es posible según las políticas de cada institución.",
+              "Los intercambios nacionales generalmente tienen una duración limitada, y debes asegurarte de cumplir con todos los requisitos antes de aplicar."
+            ]
+          },
+          {
+            "tag": "art055_pregunta",
+            "patterns": [
+              "¿Cómo puedo participar en competencias académicas?",
+              "¿Qué tipo de competencias académicas ofrece la universidad?",
+              "¿Hay premios o reconocimientos en las competencias académicas?",
+              "¿Cómo me inscribo en una competencia académica?"
+            ],
+            "responses": [
+              "La universidad organiza varias competencias académicas en diferentes áreas. Puedes inscribirte a través de tu facultad o del departamento correspondiente.",
+              "Participar en estas competencias puede brindarte premios y reconocimientos, además de ser una excelente oportunidad para desarrollar tus habilidades."
+            ]
+          },
+          {
+            "tag": "art056_pregunta",
+            "patterns": [
+              "¿Qué opciones de financiamiento hay para proyectos de investigación?",
+              "¿Cómo solicito fondos para mi proyecto de investigación?",
+              "¿Hay becas o subsidios para investigaciones estudiantiles?",
+              "¿Qué requisitos debo cumplir para obtener financiamiento de investigación?"
+            ],
+            "responses": [
+              "Para financiar tu proyecto de investigación, puedes aplicar a becas, subsidios o fondos internos. Consulta en la oficina de investigación de tu facultad para más detalles.",
+              "Los requisitos para obtener financiamiento varían según la fuente, pero generalmente incluyen un proyecto bien definido y justificado."
+            ]
+          },
+          {
+            "tag": "art057_pregunta",
+            "patterns": [
+              "¿Cómo puedo acceder a asesoría legal en la universidad?",
+              "¿Qué tipo de servicios legales ofrece la universidad a los estudiantes?",
+              "¿Hay algún costo por la asesoría legal en el campus?",
+              "¿Cómo solicito asistencia legal como estudiante?"
+            ],
+            "responses": [
+              "La universidad ofrece asesoría legal gratuita o a bajo costo para los estudiantes. Puedes solicitar este servicio a través de la oficina de asuntos estudiantiles.",
+              "Los servicios legales pueden incluir asesoramiento en temas como derechos estudiantiles, contratos y otros asuntos legales."
+            ]
+          },
+          {
+            "tag": "art058_pregunta",
+            "patterns": [
+              "¿Cómo se manejan las situaciones de emergencia en el campus?",
+              "¿Qué debo hacer en caso de una emergencia en la universidad?",
+              "¿Hay protocolos de seguridad para emergencias?",
+              "¿Cómo me preparo para situaciones de emergencia en la universidad?"
+            ],
+            "responses": [
+              "La universidad cuenta con protocolos de seguridad y planes de emergencia para situaciones de urgencia. Es importante conocer estos protocolos y participar en las capacitaciones ofrecidas.",
+              "En caso de emergencia, sigue las indicaciones de seguridad de la universidad y reporta la situación a las autoridades del campus inmediatamente."
+              ]
+            },
+            {
+                "tag": "art059_pregunta",
+                "patterns": [
+                  "¿Cómo se gestionan las pasantías y prácticas preprofesionales?",
+                  "¿Qué requisitos debo cumplir para hacer una pasantía?",
+                  "¿Hay créditos académicos por realizar prácticas preprofesionales?",
+                  "¿Cómo encuentro oportunidades de pasantías relacionadas con mi carrera?"
+                ],
+                "responses": [
+                  "Las pasantías y prácticas preprofesionales se gestionan a través de la oficina de prácticas de la universidad, y suelen requerir un cierto nivel académico y la aprobación de tu facultad.",
+                  "Puedes obtener créditos académicos por las prácticas, y la universidad ofrece asistencia para encontrar oportunidades relacionadas con tu área de estudio."
+                ]
+              },
+              {
+                "tag": "art060_pregunta",
+                "patterns": [
+                  "¿Qué oportunidades de empleo ofrece la universidad a los graduados?",
+                  "¿Cómo me ayuda la universidad a encontrar trabajo después de graduarme?",
+                  "¿Hay servicios de orientación profesional para exalumnos?",
+                  "¿La universidad organiza ferias de empleo o reclutamiento?"
+                ],
+                "responses": [
+                  "La universidad ofrece servicios de orientación profesional y puede organizar ferias de empleo para ayudar a los graduados a encontrar oportunidades laborales.",
+                  "Como exalumno, puedes acceder a recursos y asesoramiento para la búsqueda de empleo, incluyendo talleres y sesiones de networking."
+                ]
+              },
+              {
+                "tag": "art061_pregunta",
+                "patterns": [
+                  "¿Cómo se manejan las quejas sobre los servicios universitarios?",
+                  "¿A quién debo dirigirme si tengo un problema con un servicio de la universidad?",
+                  "¿Existe un procedimiento formal para presentar quejas sobre servicios?",
+                  "¿Qué pasa después de presentar una queja sobre un servicio universitario?"
+                ],
+                "responses": [
+                  "Si tienes una queja sobre los servicios universitarios, debes seguir el procedimiento formal, que generalmente implica contactar a la oficina responsable del servicio.",
+                  "Después de presentar una queja, se realiza una investigación y, si es necesario, se toman medidas para resolver el problema."
+                ]
+              },
+              {
+                "tag": "art062_pregunta",
+                "patterns": [
+                  "¿Cómo se promueve la responsabilidad social en la universidad?",
+                  "¿Qué actividades de responsabilidad social puedo realizar como estudiante?",
+                  "¿Participar en iniciativas de responsabilidad social cuenta para mi currículum?",
+                  "¿Hay proyectos de voluntariado o comunitarios en los que pueda involucrarme?"
+                ],
+                "responses": [
+                  "La universidad fomenta la responsabilidad social a través de diversas iniciativas, incluyendo voluntariado y proyectos comunitarios.",
+                  "Participar en estas actividades no solo enriquece tu currículum, sino que también contribuye a tu crecimiento personal y a la comunidad."
+                ]
+                },
+                {
+                "tag": "art063_pregunta",
+                "patterns": [
+                "¿Cómo se eligen los representantes estudiantiles?",
+                "¿Qué papel juegan los representantes estudiantiles en la universidad?",
+                "¿Puedo postularme para ser representante estudiantil?",
+                "¿Qué responsabilidades tienen los representantes estudiantiles?"
+                ],
+                "responses": [
+                "Los representantes estudiantiles son elegidos a través de votaciones democráticas. Su papel es representar los intereses de los estudiantes ante la administración universitaria.",
+                "Si deseas ser representante estudiantil, puedes postularte siguiendo el proceso electoral. Las responsabilidades incluyen asistir a reuniones, plantear inquietudes estudiantiles y colaborar en la mejora de los servicios."
+                ]
+                },
+                {
+                "tag": "art064_pregunta",
+                "patterns": [
+                "¿Cuál es el proceso para realizar una doble titulación?",
+                      "¿Qué requisitos debo cumplir para acceder a un programa de doble titulación?",
+                      "¿Puedo obtener dos títulos de diferentes áreas simultáneamente?",
+                      "¿Cómo afecta una doble titulación a mi plan de estudios actual?"
+                ],
+                "responses": [
+                      "Para realizar una doble titulación, necesitas cumplir con los requisitos específicos de ambos programas y coordinar con las facultades respectivas.",
+                      "Una doble titulación implica un plan de estudios más extenso y posiblemente más exigente, pero te permite obtener títulos en dos áreas diferentes."
+                    ]
+                  }
+    ]
+  }
+  
